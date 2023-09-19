@@ -1,0 +1,8 @@
+/home/qinzuyin/trackingtest/B1.original/build/CMakeFiles/install/strip.dir
+/home/qinzuyin/trackingtest/B1.original/build/CMakeFiles/install/local.dir
+/home/qinzuyin/trackingtest/B1.original/build/CMakeFiles/install.dir
+/home/qinzuyin/trackingtest/B1.original/build/CMakeFiles/list_install_components.dir
+/home/qinzuyin/trackingtest/B1.original/build/CMakeFiles/rebuild_cache.dir
+/home/qinzuyin/trackingtest/B1.original/build/CMakeFiles/edit_cache.dir
+/home/qinzuyin/trackingtest/B1.original/build/CMakeFiles/B1.dir
+/home/qinzuyin/trackingtest/B1.original/build/CMakeFiles/exampleB1.dir
