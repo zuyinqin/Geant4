@@ -1,0 +1,284 @@
+# Macro file for example B1
+# 
+# Can be run in batch, without graphic
+# or interactively: Idle> /control/execute run1.mac
+#
+# Change the default number of workers (in multi-threading mode) 
+/run/numberOfThreads 1
+#
+# Initialize kernel
+/run/initialize
+#
+/control/verbose 2
+/run/verbose 2
+/event/verbose 0
+/tracking/verbose 1
+# 
+#e- to the direction (0.,0.,1.)
+#
+/gun/particle e-
+##############################
+/gun/energy 0.012 MeV
+/run/beamOn 1000
+#
+/gun/energy 0.014 MeV
+/run/beamOn 1000
+# 
+/gun/energy 0.016 MeV
+/run/beamOn 1000
+#
+/gun/energy 0.018 MeV 
+/run/beamOn 1000
+#
+/gun/energy 0.02 MeV 
+/run/beamOn 1000
+#
+/gun/energy 0.03 MeV 
+/run/beamOn 1000
+#
+/gun/energy 0.04 MeV 
+/run/beamOn 1000
+#
+/gun/energy 0.05 MeV 
+/run/beamOn 1000
+#
+/gun/energy 0.08 MeV 
+/run/beamOn 1000
+#
+/gun/energy 0.1 MeV 
+/run/beamOn 1000
+#
+/gun/energy 0.2 MeV 
+/run/beamOn 1000
+#
+/gun/energy 0.3 MeV 
+/run/beamOn 1000
+#
+/gun/energy 0.4 MeV 
+/run/beamOn 1000
+#
+/gun/energy 0.5 MeV 
+/run/beamOn 1000
+#
+/gun/energy 0.6 MeV 
+/run/beamOn 1000
+#
+/gun/energy 0.8 MeV 
+/run/beamOn 1000
+#
+/gun/energy 1 MeV 
+/run/beamOn 1000
+#
+/gun/energy 1.1 MeV 
+/run/beamOn 1000
+#
+/gun/energy 1.2 MeV 
+/run/beamOn 1000
+#
+/gun/energy 1.5 MeV 
+/run/beamOn 1000
+#
+/gun/energy 2 MeV 
+/run/beamOn 1000
+#
+/gun/energy 3 MeV 
+/run/beamOn 1000
+#
+/gun/energy 5 MeV 
+/run/beamOn 1000
+#
+/gun/energy 8 MeV 
+/run/beamOn 1000
+#
+/gun/energy 10 MeV 
+/run/beamOn 1000
+#
+/gun/energy 20 MeV 
+/run/beamOn 1000
+#
+/gun/energy 30 MeV 
+/run/beamOn 1000
+#
+/gun/energy 50 MeV 
+/run/beamOn 1000
+#
+/gun/energy 80 MeV 
+/run/beamOn 1000
+#
+/gun/energy 100 MeV 
+/run/beamOn 1000
+#
+/gun/energy 200 MeV 
+/run/beamOn 1000
+#
+/gun/energy 300 MeV 
+/run/beamOn 1000
+#
+/gun/energy 500 MeV 
+/run/beamOn 1000
+#
+/gun/energy 800 MeV 
+/run/beamOn 1000
+#
+/gun/energy 1000 MeV 
+/run/beamOn 1000
+#
+/gun/energy 3000 MeV 
+/run/beamOn 1000
+#
+/gun/energy 5000 MeV 
+/run/beamOn 1000
+#
+/gun/energy 8000 MeV 
+/run/beamOn 1000
+#
+/gun/energy 10000 MeV 
+/run/beamOn 1000
+#
+
+# mu- to the direction (0.,0.,1.)
+/gun/particle mu-
+##########################
+/gun/energy 0.5 MeV 
+/run/beamOn 1000
+#
+/gun/energy 0.8 MeV
+/run/beamOn 1000
+#
+/gun/energy 1 MeV 
+/run/beamOn 1000
+#
+/gun/energy 3 MeV 
+/run/beamOn 1000
+#
+/gun/energy 5 MeV 
+/run/beamOn 1000
+#
+/gun/energy 8 MeV 
+/run/beamOn 1000
+#
+/gun/energy 10 MeV 
+/run/beamOn 1000
+#
+/gun/energy 20 MeV 
+/run/beamOn 1000
+#
+/gun/energy 30 MeV 
+/run/beamOn 1000
+#
+/gun/energy 50 MeV 
+/run/beamOn 1000
+#
+/gun/energy 80 MeV 
+/run/beamOn 1000
+#
+/gun/energy 100 MeV 
+/run/beamOn 1000
+#
+/gun/energy 200 MeV 
+/run/beamOn 1000
+#
+/gun/energy 300 MeV 
+/run/beamOn 1000
+#
+/gun/energy 500 MeV 
+/run/beamOn 1000
+#
+/gun/energy 700 MeV 
+/run/beamOn 1000
+#
+/gun/energy 900 MeV 
+/run/beamOn 1000
+#
+/gun/energy 1000 MeV 
+/run/beamOn 1000
+#
+/gun/energy 2000 MeV 
+/run/beamOn 1000
+#
+/gun/energy 3000 MeV 
+/run/beamOn 1000
+#
+/gun/energy 5000 MeV 
+/run/beamOn 1000
+#
+/gun/energy 8000 MeV 
+/run/beamOn 1000
+#
+/gun/energy 10000 MeV 
+/run/beamOn 1000
+#
+
+/gun/particle pion
+##########################
+/gun/energy 0.5 MeV 
+/run/beamOn 1000
+#
+/gun/energy 0.8 MeV
+/run/beamOn 1000
+#
+/gun/energy 1 MeV 
+/run/beamOn 1000
+#
+/gun/energy 3 MeV 
+/run/beamOn 1000
+#
+/gun/energy 5 MeV 
+/run/beamOn 1000
+#
+/gun/energy 8 MeV 
+/run/beamOn 1000
+#
+/gun/energy 10 MeV 
+/run/beamOn 1000
+#
+/gun/energy 20 MeV 
+/run/beamOn 1000
+#
+/gun/energy 30 MeV 
+/run/beamOn 1000
+#
+/gun/energy 50 MeV 
+/run/beamOn 1000
+#
+/gun/energy 80 MeV 
+/run/beamOn 1000
+#
+/gun/energy 100 MeV 
+/run/beamOn 1000
+#
+/gun/energy 200 MeV 
+/run/beamOn 1000
+#
+/gun/energy 300 MeV 
+/run/beamOn 1000
+#
+/gun/energy 500 MeV 
+/run/beamOn 1000
+#
+/gun/energy 700 MeV 
+/run/beamOn 1000
+#
+/gun/energy 900 MeV 
+/run/beamOn 1000
+#
+/gun/energy 1000 MeV 
+/run/beamOn 1000
+#
+/gun/energy 2000 MeV 
+/run/beamOn 1000
+#
+/gun/energy 3000 MeV 
+/run/beamOn 1000
+#
+/gun/energy 5000 MeV 
+/run/beamOn 1000
+#
+/gun/energy 8000 MeV 
+/run/beamOn 1000
+#
+/gun/energy 10000 MeV 
+/run/beamOn 1000
+#
+
+
